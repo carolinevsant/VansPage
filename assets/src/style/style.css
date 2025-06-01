@@ -1,0 +1,229 @@
+@import url(global.css);
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 80px;
+
+}
+
+.LogoVansOne{
+    width: 80px;
+
+}
+
+.NavHeader ul  {
+    display: flex;
+    gap: 50px;
+    
+}
+
+.NavHeader a{
+   color: black;
+}
+
+.btnHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 91px;
+    height: 41px;
+
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+.banner-container {
+  position: relative;
+  width: 100%;
+  padding-top: 290px; /* Proporção do banner */
+  overflow: hidden;
+}
+
+.BannerOne {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/*-----------------------------------------------*/
+main{
+    width: 100%;
+}
+.principal{
+    display: flex;
+
+}
+.classic{
+    padding: 30px;
+}
+.classic h2{
+    display: flex;
+    align-items: center;
+    margin-bottom:10px;
+
+    font-size: 17px;
+}
+
+.oldClassic{
+    width: 400px;
+    height: 250px;
+}
+/*-----------------------------------------------*/
+.sneakeers{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+
+    width: 100%;
+    gap: 20px;
+}
+
+.oldSchoolBlack img{
+    width: 250px;
+    height: 220px;
+}
+
+.oldSchoolBlack h3, p {
+    font-size: 10px;
+}
+
+.oldSchoolBlue img{
+    width: 250px;
+     height: 220px;
+}
+
+.oldSchoolBlue h3 , p{
+    font-size: 10px;
+}
+
+/*-----------------------------------------------*/
+.categoria{
+ 
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.categoria h2{
+    display: flex;
+
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.cards {
+   display: flex;
+   justify-content: space-around;
+
+   width: 100%;
+   gap: 10px;
+   
+
+}
+
+.cards img{
+    display: flex;
+    border-radius: 2px;
+    width: 310px;
+    height: 340px;
+}
+
+.cards a {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 12px;
+    color: black;
+}
+
+
+/*-----------------------------------------------*/
+
+.Novidades{
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+
+
+.cardsMini, img{
+    display: flex;
+   justify-content: space-around;
+
+   width: 178px;
+   gap: 20px;
+}
+
+.cardsMini p{
+    font-size: 14px;
+}
+
+/*-----------------------------------------------*/
+.referencia{
+  position: relative;
+  width: 100%;
+  padding-top: 20px; /* Proporção do banner */
+  overflow: hidden;
+
+  margin-top: 30px;
+}
+.ref{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/*-----------------------------------------------*/
+
+.inscrição{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 200px;
+
+    background-color: rgb(217, 219, 220);
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 290px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+.btn-cadastro{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+form{
+    border: 1px solid;
+    border-radius: 4px;
+    height: 50px;
+    background-color: white;
+}
+footer{
+    background-color: rgb(38, 37, 37);
+    width: 100%;
+    height: 400px;
+}
